@@ -1,13 +1,10 @@
 # !/bin/bash
 # sh bran 1
-# $# <- total number of parameters
 
 version='0.3.0'
 red='\x1B[0;31m'
 green='\x1B[0;32m'
 NC='\x1B[0m' # No Color
-
-echo $readmemd > README.md
 
 printf "\n=====\n"
 echo "${green}Bran, script for setting up new meteor projects${NC}"
